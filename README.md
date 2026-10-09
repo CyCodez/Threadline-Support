@@ -4,7 +4,7 @@ Threadline is a small, production-oriented customer support workspace built arou
 
 **Customers should be able to explain a problem naturally, and support staff should receive enough context to solve it without making the customer repeat themselves.**
 
-The project is intentionally designed around real SaaS support behaviour rather than a generic CRUD dashboard.
+The project is intentionally designed around real SaaS support behaviour 
 
 ## Stack
 
@@ -194,7 +194,5 @@ GET /api/admin/overview
 ```
 
 ## Important note
-
-This is a serious portfolio project and is intentionally much closer to a real support product than a tutorial CRUD app. Before exposing it publicly as a production service, add a managed file/object-storage solution, email verification, password reset, automated tests, audit logging, observability, CI/CD and a proper production database/security review.
 
 Do not commit `.env`.
